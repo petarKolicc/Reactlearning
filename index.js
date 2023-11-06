@@ -1,0 +1,1 @@
+ReactDOM.render(<h1>Turcine popusis mi kurcine</h1>, document.getElementById("root"))
