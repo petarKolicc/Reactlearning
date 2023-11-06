@@ -1,1 +1,8 @@
-ReactDOM.render(<h1>Turcine popusis mi kurcine</h1>, document.getElementById("root"))
+function MojaKomponenta(){ 
+	return(
+			<div> Moja komponenta </div>
+		)
+}
+
+
+ReactDOM.render(<div><h1>Zdravo svete</h1> <MojaKomponenta/></div>, document.getElementById("root"))

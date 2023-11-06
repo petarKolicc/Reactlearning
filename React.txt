@@ -1,0 +1,28 @@
+ReactDOM.render(<h1>Hello, everyone </h1>, document.getElementById("divid1"))
+// upisujemo html ovaj na mesto gde se nalazi divid1
+//ReactDOM - globalna varijabla
+// render - je njena metoda
+
+
+function MojaKomponenta(){ 
+	return(
+			<div> Moja komponenta
+		)
+}
+
+ReactDOM.render(<MojaKomponenta/>, document.getElementById("divid1"))
+// ugradjuje moju komponentu unutar Diva
+
+
+JSX - Javascript XML
+
+// className == class ali na React nacin
+const element = <h1 className="header"> This is JSX </h1>
+console.log(element) // react pravi javascript objekat
+ReactDOM.render(element, document.getElementById("root"))
+
+
+import React from "react"
+import ReactDOM from "react-dom"
+// ovako uvozim react, ne mora sa novijim verzijama od React 17
+
