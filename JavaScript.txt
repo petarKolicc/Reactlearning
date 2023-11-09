@@ -529,6 +529,11 @@ const [a,  b, , d] = niz;
 // dodeljujemo vrednosti novim promenjivama
 // krecemo od indexa 0 ako ostavimo prazno onda nista
 
+// premapiranje nizova
+
+let niz1 = niz1.map((sta_god) => sta_god + "!")
+
+
 
 ------ DIZANJE SERVERA ------
 
@@ -536,9 +541,49 @@ npm install http-server -g
 
 http-server -p 3000 --cors
 // iskljuci cors
--------------------------------------
 
 
+----- CHROME -------------
+
+
+ctrl + s = cuvanje u chrome ponovo pokrece
+
+// ako imas problem sa azuriranjem samo uradi ctrl + s
+
+---- EXPORT IMPORT -----------
+
+export let kljuc = "sta_god"
+// export varijable
+
+import {kljuc} from './skripta1.js'
+// ako je cist javascript
+
+# Import Export
+
+
+export default "sta_god";
+// ovo je defaultna stvar koja se exportuje iz fajla
+// sme samo jedna stvar da se exportuje
+
+import jaZovemVarijabluAustvariDefault from './skripta.js'
+// importuje default sto je export i dajem mu naziv
+
+
+export let kljuc = "sta_god"
+// export varijable
+
+import {kljuc} from './skripta1.js'
+// ako je cist javascript
+
+import * as klasa1 from "./skripta1.js"
+// importuje sve i stavlja u klasu1 da kasnije bude korisceno
+
+==
+// ako su isti posle neohodne konverzije npr iz string u int\=
+=== ako su isti i tipovi i njihove vrednost
+
+100 == "100"
+// ako su dva onda je ovo tacno
 
 Precice
 
