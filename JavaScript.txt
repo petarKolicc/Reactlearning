@@ -1,8 +1,15 @@
  ------- RAZNO ---------------
 
-<script type="text/javascript" async=""
-    src="moja_scripta.js"></script>
+<script type="text/javascript"
+    src="moja_scripta.js" defer></script>
+// defer funkcionise tako sto posto ucita DOM (HTML) tek
+// onda izvrsava javascript(ako nema src ovo se ignorise),
+// a ucitava biblioteku u paraleli sa ucitavanjem DOM-a
 
+<script type="text/javascript"
+    src="moja_scripta.js" type="module"></script>
+// uz module flag onda u mom javascriptu smem da radim import i export drugih
+// javascript fajlova jel gleda sve kao modul
 
 <meta charset="utf-8"/>
 // hocu sve
@@ -522,6 +529,13 @@ const [a,  b, , d] = niz;
 // dodeljujemo vrednosti novim promenjivama
 // krecemo od indexa 0 ako ostavimo prazno onda nista
 
+
+------ DIZANJE SERVERA ------
+
+npm install http-server -g
+
+http-server -p 3000 --cors
+// iskljuci cors
 -------------------------------------
 
 
