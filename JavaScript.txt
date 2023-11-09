@@ -242,6 +242,11 @@ console.log(zevs.covek);
 // pravljenje novog objekta
 
 
+----------- TIMEOUT TIMER ---------
+
+setTimeout(() => {console.log("kasnim 40s")}, 4000);
+// posle 40s izvrsi funkciju
+
 ---------- KLASA ----------------
 
 // normalna klasa sa getterima i setterima
@@ -369,6 +374,11 @@ parseInt("288"); // pretvara slova u broj
 --------- WHILE i FOR---------------
 
 ISTO
+
+for(const hobi of hobiji)
+{
+	
+}
 
 
 
@@ -522,12 +532,13 @@ niz.unshift("ubacuje na pocetak niza");
 var niz = ["pon", "uto", "sre", "cet"];
 var niz2 = ["ned"]
 var niz2 = [...niz];
-// duboko kopiranje
+// duboko kopiranje i appendovanje
 
 
-const [a,  b, , d] = niz;
+const [a,  b, c, d] = niz;
 // dodeljujemo vrednosti novim promenjivama
 // krecemo od indexa 0 ako ostavimo prazno onda nista
+// destruktuiranje
 
 // premapiranje nizova
 
