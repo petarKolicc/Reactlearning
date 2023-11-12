@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "3f44f7dc37c4149e",
+    "type": "split",
+    "children": [
+      {
+        "id": "00031de750cf93b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8477c9ee368160f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML elementi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a87d101e63173930",
+    "type": "split",
+    "children": [
+      {
+        "id": "992dc2ccab0db616",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e814674fa12ed26f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "783adc1bc02606b1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "google-chrome --disable-web-security --user-data-dir=\"/tmp/chrome_dev_session",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "303e15c53f1afce0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "56a9058168974bf7",
+    "type": "split",
+    "children": [
+      {
+        "id": "243f4d60e7988351",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21bc19ca5b9a163e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTML elementi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "db6a16590be4f4b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTML elementi.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dac5afa46ed36da7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0cb1274d44cc9e34",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HTML elementi.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a8477c9ee368160f",
+  "lastOpenFiles": [
+    "Hook State Stanje.md",
+    "HTML elementi.md",
+    "Osnovne stvari i komande.md",
+    "Javascript.md",
+    "Pasted image 20231111212025.png",
+    "Pokretanje i slicno.md",
+    "CSS.md",
+    "Dobra praksa.md",
+    "Osnovno.md",
+    "Untitled.canvas"
+  ]
+}

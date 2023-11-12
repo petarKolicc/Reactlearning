@@ -479,13 +479,6 @@ const magija = (function() {
 	};
 })();
 
-
-
-
-
-
-
-
 // Ako ne zelimo da prenosimo sv parametre funkcije vec samo neke
 const stats = {
 
@@ -549,6 +542,11 @@ const [a,  b, c, d] = niz;
 
 let niz1 = niz1.map((sta_god) => sta_god + "!")
 
+### map, dozvoljava i index koji oznacava index u nizu
+```
+niz.map((object, index)) => <li key={index}> {object.text} </li>
+```
+
 
 
 ------ DIZANJE SERVERA ------
@@ -574,6 +572,8 @@ export let kljuc = "sta_god"
 import {kljuc} from './skripta1.js'
 // ako je cist javascript
 
+key={`${promenjiva1}${promenjiva2}`}
+//injekcija dve promenjive
 # Import Export
 
 
@@ -630,10 +630,6 @@ ctrl + K + C
 
 F12 - za otvaranje inspect-a 
 
-
-
-
 NAJBITNIJE
-
 
 javascript je case sensitive
