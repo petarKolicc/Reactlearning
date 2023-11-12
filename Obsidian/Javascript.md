@@ -416,8 +416,6 @@ function printUser(user, fun1)
 
 printUser(promenjiva1, funkcija1);
 
-
-
 ---- ARROW FUNKCIJA FUNKCIJA STRELICA
 
 var magija = function(a, b)
@@ -425,7 +423,6 @@ var magija = function(a, b)
 	a += 3;
 	return a + b;
 }
-
 
 sluze za pisanje krace sintaxe
 
@@ -436,10 +433,11 @@ var magija = (a, b) =>
 }
 // isto ovo radi
 
-console.log(`${magija(666, 5997)}`);
+(a, b) => a + b
+// ne stavljam zagrade i implicitno znaci
+// da je return vrednost a+b
 
-// ako je samo jedna linija u pitanju
-var magija2 = (a, b) =>  a + b + 8;
+console.log(`${magija(666, 5997)}`);
 
 
 
