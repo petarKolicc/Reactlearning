@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML elementi.md",
+                "file": "Ref.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9df4355b768d220a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "razbacano.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "google-chrome --disable-web-security --user-data-dir=\"/tmp/chrome_dev_session",
+                "query": "event",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML elementi.md",
+                "file": "razbacano.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML elementi.md",
+                "file": "razbacano.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML elementi.md"
+                "file": "razbacano.md"
               }
             }
           }
@@ -146,14 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8477c9ee368160f",
+  "active": "9df4355b768d220a",
   "lastOpenFiles": [
+    "Ref.md",
+    "razbacano.md",
     "Hook State Stanje.md",
     "HTML elementi.md",
+    "Pokretanje i slicno.md",
     "Osnovne stvari i komande.md",
     "Javascript.md",
     "Pasted image 20231111212025.png",
-    "Pokretanje i slicno.md",
     "CSS.md",
     "Dobra praksa.md",
     "Osnovno.md",

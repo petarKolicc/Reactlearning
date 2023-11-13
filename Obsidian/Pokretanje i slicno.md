@@ -8,6 +8,10 @@ create-react-app freeCodeCampReactPractice/
 sudo npm -g install create-react-app
 // za pravljenje pocetnih aplikacija u reactu
 
+npx create-react-app my-app
+// prva aplikacija demo neki
+
+
 npm install
 // skida sve sto treba za react projekat sve biblioteka cita iz json
 // config fajla<
