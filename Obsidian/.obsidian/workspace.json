@@ -13,19 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ref.md",
+                "file": "Hook State Stanje.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9df4355b768d220a",
+            "id": "96def67e6983507d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "razbacano.md",
+                "file": "contextAPI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0701eaeea79b20a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Javascript.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "event",
+                "query": "npm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 573.5
   },
   "right": {
     "id": "56a9058168974bf7",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "razbacano.md",
+                "file": "contextAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "razbacano.md",
+                "file": "contextAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "razbacano.md"
+                "file": "contextAPI.md"
               }
             }
           }
@@ -159,15 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9df4355b768d220a",
+  "active": "96def67e6983507d",
   "lastOpenFiles": [
-    "Ref.md",
-    "razbacano.md",
     "Hook State Stanje.md",
-    "HTML elementi.md",
-    "Pokretanje i slicno.md",
-    "Osnovne stvari i komande.md",
+    "contextAPI.md",
+    "Ref.md",
     "Javascript.md",
+    "Pokretanje i slicno.md",
+    "Git.md",
+    "HTML elementi.md",
+    "razbacano.md",
+    "Osnovne stvari i komande.md",
     "Pasted image 20231111212025.png",
     "CSS.md",
     "Dobra praksa.md",

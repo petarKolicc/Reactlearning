@@ -1,0 +1,1 @@
+contextAPI - vezi za stanje najblizeg predaka koje svi koriste

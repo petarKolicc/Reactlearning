@@ -244,8 +244,11 @@ console.log(zevs.covek);
 
 ----------- TIMEOUT TIMER ---------
 
-setTimeout(() => {console.log("kasnim 40s")}, 4000);
+const timer1 = setTimeout(() => {console.log("kasnim 40s")}, 4000);
 // posle 40s izvrsi funkciju
+
+clearTimeout(timer1);
+// zasutavlja tajmer
 
 ---------- KLASA ----------------
 
