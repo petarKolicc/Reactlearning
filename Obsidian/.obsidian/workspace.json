@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "f0217c081660408d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reducer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f0701eaeea79b20a",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "npm",
+                "query": "children",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 573.5
+    "width": 283.5
   },
   "right": {
     "id": "56a9058168974bf7",
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "contextAPI.md",
+                "file": "Reducer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "contextAPI.md",
+                "file": "Reducer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "contextAPI.md"
+                "file": "Reducer.md"
               }
             }
           }
@@ -171,17 +183,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96def67e6983507d",
+  "active": "f0217c081660408d",
   "lastOpenFiles": [
-    "Hook State Stanje.md",
     "contextAPI.md",
+    "Reducer.md",
+    "Osnovne stvari i komande.md",
     "Ref.md",
-    "Javascript.md",
     "Pokretanje i slicno.md",
+    "Hook State Stanje.md",
+    "Javascript.md",
     "Git.md",
     "HTML elementi.md",
     "razbacano.md",
-    "Osnovne stvari i komande.md",
     "Pasted image 20231111212025.png",
     "CSS.md",
     "Dobra praksa.md",

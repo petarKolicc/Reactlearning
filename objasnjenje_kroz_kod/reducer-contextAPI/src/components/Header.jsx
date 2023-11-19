@@ -30,7 +30,7 @@ export default function Header({ cart, onUpdateCartItemQuantity }) {
         onUpdateCartItemQuantity={onUpdateCartItemQuantity}
         title="Your Cart"
         actions={modalActions}
-      />
+      />  
       <header id="main-header">
         <div id="main-title">
           <img src="logo.png" alt="Elegant model" />

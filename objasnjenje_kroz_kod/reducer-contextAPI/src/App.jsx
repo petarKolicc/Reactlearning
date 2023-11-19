@@ -66,10 +66,15 @@ function App() {
     });
   }
 
+  const ctxValue =  {
+    items: shoppingCart.items,
+    addItemToCart: handleAddItemToCart
+  }
+
   return (
     // ovakva notacija je neophodna
     // pocetno stanje mora i value da se stavi
-    <CartContext.Provider value = {{items: []}}>
+    <CartContext.Provider value = {ctxValue}>
       <Header
         cart={shoppingCart}
         onUpdateCartItemQuantity={handleUpdateCartItemQuantity}
@@ -80,3 +85,24 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
