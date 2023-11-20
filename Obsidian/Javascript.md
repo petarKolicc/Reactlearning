@@ -63,6 +63,18 @@ var b = 6;
 /
 [a, b] = [b, a];
 
+-------- REDUCE ---------------------------
+
+
+const totalPrice = items.reduce((acc, item) => acc + item.price) => od nekoliko vrednosti pravi manje, redukuje
+
+------ GEOLOKACIJA NAVIGATOR GEOLOCATION -----------
+
+navigator.geolocation.getCurrentPosition((position) => {
+  
+  console.log(position.coords.latitude);
+  console.log(position.coords.longitude)
+  )
 
 ----------- HTML ----------------------------
 
