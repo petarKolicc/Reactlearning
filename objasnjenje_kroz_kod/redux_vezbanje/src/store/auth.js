@@ -9,6 +9,7 @@ const initialAuthState = {
 const authSlice = createSlice({name: "authentication", initialState: initialAuthState,
  reducers: {
     login(state) {
+        console.log("usao ovde")
         state.isAuthenticated = true
     },
     logout(state) {

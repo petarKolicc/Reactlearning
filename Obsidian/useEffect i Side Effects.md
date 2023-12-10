@@ -1,7 +1,13 @@
 
+import React, { useEffect } from 'react';
+
+
 Sideeffect - stvari koje ne uticu diretno na komponente koje se trenutno prikaziju
 ali su neophodne za dalje koriscenje aplikacije
 Zabranjeno koristiti unutar nested funkcija if ili for ili bilo sta tome slicno
+
+useEffect izvrsava posle renderovanja DOM-a
+
 
 KORISTITI SAMO ZA INFINITE LOOP ILI KADA IMAS NESTO STO TREBA DA SE IZVRSI POSLE JSX KOMPONENTE ISTO TAKO ASINHRONI POZIVI U TO ULAZE
 
@@ -36,3 +42,46 @@ useEffect(() => {
 }
 
 )
+
+// pod menja misli se na referencu menjanje
+// zato se koristi state, ref ili tako nesto 
+// 
+```
+Resenje 2
+
+import React from 'react';
+import {useEffect, useState} from 'react'
+ let roomId = 0
+export function App(props) {
+
+ const [roomId, setRoomId] = useState(0);
+
+  useEffect(() => {
+	// ako se odkomentarise deo ispod
+	// ulazi se u beskonacnu petlju
+	// znaci gde god je promenjen roomId
+	// ponovo ce se izvrsavati
+    // setRoomId((state) => state + 1)
+    console.log(roomId)
+  }, [roomId]);
+  
+
+function menjaj()
+{ 
+setRoomId((state) => state + 1)
+  
+  console.log("menjaj")
+}
+
+  return (
+    <div className='App'>
+      <h1>Hello React.</h1>
+      <h2>Start editing to see some magic happen!</h2>
+      <button onClick={menjaj}>dugme</button>
+    </div>
+  );
+}
+
+// Log to console
+console.log('Hello console')
+```

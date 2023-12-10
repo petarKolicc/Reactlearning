@@ -1,3 +1,6 @@
+
+![[Pasted image 20231203190216.png]]
+
 const[state, dispatch] = useReducer(reducer, initialArg, init?)
 
 import { useReducer } from 'react';
@@ -9,6 +12,8 @@ initialArg - pocetno stanje moze bilti bilo kog tipa
 
 init - initFunkcija koja vraca init stanje, ako nije specificirano
 state = initialArg inace state = init(initialArg)
+
+
 
 
 const[state, dispatch]
